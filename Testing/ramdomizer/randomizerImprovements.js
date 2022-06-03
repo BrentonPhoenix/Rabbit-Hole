@@ -2,6 +2,10 @@
 let control = Math.floor(Math.random() * 10) + 1;
 let asAFunction = () => Math.floor(Math.random() * 10) + 1
 
+function random10(){
+    return Math.floor(Math.random() * 10) +1
+}
+
 console.log('first we call the control ', control)
 console.log('then we call asAFunction ', asAFunction())
 console.log('2 we call the control ', control)
@@ -26,3 +30,4 @@ console.log('4 we call asAFunction ', asAFunction())
 // 4 we call the control  3
 // 4 we call asAFunction  2
 
+console.log(random10())
